@@ -1,0 +1,60 @@
+general {
+    output_format = "i3bar"
+    colors = true
+    interval = 5
+}
+
+order += "disk /"
+order += "wireless wlp0s20f3"
+order += "ethernet tun0"
+order += "memory"
+order += "load"
+order += "battery 0"
+order += "tztime berlin"
+
+wireless wlp0s20f3 {
+    format_up = "📶%quality %essid %ip"
+    format_down = "📶down"
+}
+
+ethernet tun0 {
+    format_up = "🔒%ip"
+    format_down = ""
+}
+
+
+tztime berlin {
+    format = "%Y-%m-%d %H:%M:%S %Z"
+    timezone = "Europe/Berlin"
+}
+
+memory {
+    format = "%used"
+    threshold_degraded = "10%"
+    format_degraded = "MEMORY: %free"
+}
+
+
+disk "/" {
+        format = "💾%free"
+}
+
+battery 0 {
+        format = "%status %percentage %remaining %emptytime"
+        format_down = "No battery"
+        status_chr = "⚡ CHR"
+        status_bat = "🔋 BAT"
+        status_unk = "? UNK"
+        status_full = "🔋 FULL"
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 10
+}
+
+tztime berlin {
+        format = "%d.%m.%Y %H:%M:%S"
+        timezone = "Europe/Berlin"
+}
+
+load {
+    format = "🚂 %5min"
+}

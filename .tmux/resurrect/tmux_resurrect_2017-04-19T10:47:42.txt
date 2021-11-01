@@ -1,0 +1,9 @@
+pane	0	0	:..ply/lachschon	1	:*	0	:/home/sven/projects/programming/3dsupply/lachschon	1	zsh	:
+pane	0	0	:..ply/lachschon	1	:*	1	:/home/sven/projects/programming/3dsupply/lachschon	0	zsh	:
+pane	6	0	:~	1	:*	0	:/home/sven	1	zsh	:
+pane	servers	0	:~	1	:*	0	:/home/sven	0	zsh	:
+pane	servers	0	:~	1	:*	1	:/home/sven	1	zsh	:
+window	0	0	1	:*	93d4,271x70,0,0{135x70,0,0,0,135x70,136,0,1}
+window	6	0	1	:*	d75f,80x23,0,0,20
+window	servers	0	1	:*	0027,271x68,0,0{135x68,0,0,26,135x68,136,0,27}
+state	servers	
