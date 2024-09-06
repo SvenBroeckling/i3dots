@@ -1,0 +1,9 @@
+remove Lock = Caps_Lock
+keycode 66 = Mode_switch 
+keycode 32 = o O Odiaeresis
+keycode 30 = u U Udiaeresis
+keycode 38 = a A Adiaeresis
+keycode 39 = s S ssharp
+keycode 54 = c C cent
+keycode 26 = e E EuroSign
+keycode 24 = q Q degree
