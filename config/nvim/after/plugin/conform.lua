@@ -7,7 +7,8 @@ require("conform").setup({
     lua = { "stylua" },
     json = { "jq" },
     rust = { "rustfmt" },
-    python = { "isort", "black" },
+    -- python = { "isort", "black" },
+    python = { "black" },
     javascript = { { "prettierd", "prettier" } },
   },
 })

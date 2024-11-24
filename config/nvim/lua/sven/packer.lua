@@ -4,6 +4,12 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 	use 'tpope/vim-sleuth'
+	use({
+		"stevearc/oil.nvim",
+		config = function()
+			require("oil").setup()
+		end,
+	})
 	use {
 		'nvim-telescope/telescope.nvim',
 		requires = { { 'nvim-lua/plenary.nvim' } }
@@ -18,7 +24,8 @@ return require('packer').startup(function(use)
 		end
 	}
 	use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
-	use('github/copilot.vim')
+	-- use('github/copilot.vim')
+	use 'Exafunction/codeium.vim'
 	use('ThePrimeagen/harpoon')
 	use('mbbill/undotree')
 	use {
@@ -41,5 +48,28 @@ return require('packer').startup(function(use)
 	use {
 		'nvim-lualine/lualine.nvim',
 		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	}
+	use('norcalli/nvim-colorizer.lua')
+	use { 'uZer/pywal16.nvim', as = 'pywal16' }
+	use {
+		"folke/trouble.nvim",
+		config = function()
+			require("trouble").setup {
+			}
+		end
+	}
+	use('MunifTanjim/nui.nvim')
+	use('nvim-tree/nvim-web-devicons')
+	use {
+		"jackMort/tide.nvim",
+		config = function()
+			require("tide").setup({
+				-- optional configuration
+			})
+		end,
+		dependencies = {
+			"MunifTanjim/nui.nvim",
+			"nvim-tree/nvim-web-devicons"
+		}
 	}
 end)

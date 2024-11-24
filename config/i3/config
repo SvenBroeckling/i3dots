@@ -10,6 +10,13 @@ set $inactive-text-color #dfdfdf
 set $urgent-bg-color     #ffb52a
 set $indicator-color	 #001100
 
+# wal
+set_from_resource $text-color i3wm.color7 #dfdfdf
+set_from_resource $inactive-text-color i3wm.color2 #2E303B
+set_from_resource $bg-color i3wm.color0 #2E303B
+set_from_resource $inactive-bg-color i3wm.color0 #15161B
+set_from_resource $indicator-color i3wm.color1 #001100
+
 # window colors		border              background         text                 indicator
 client.focused          $bg-color           $bg-color          $text-color          $indicator-color
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $indicator-color
@@ -21,7 +28,8 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id nextcloud
-exec_always --no-startup-id feh --bg-scale ~/.wallpaper.jpg
+#exec_always --no-startup-id feh --bg-scale ~/.wallpaper.jpg
+exec_always --no-startup-id wal -i ~/.wallsplash
 exec --no-startup-id xmodmap ~/.Xmodmap
 
 # i3-gaps

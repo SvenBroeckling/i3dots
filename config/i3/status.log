@@ -1,0 +1,62 @@
+[2021-04-20 23:26:39,894] MainThread [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:26:39,895] MainThread [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:26:44,895] Thread-3   [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:26:44,895] Thread-4   [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:26:49,895] Thread-19  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:26:49,896] Thread-20  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:26:53,661] MainThread [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:26:53,662] MainThread [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:26:54,896] Thread-32  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:26:54,896] Thread-33  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:26:58,661] Thread-3   [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:26:58,662] Thread-4   [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:26:59,896] Thread-46  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:26:59,896] Thread-47  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:03,662] Thread-19  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:03,663] Thread-20  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:04,896] Thread-59  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:04,897] Thread-60  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:08,662] Thread-32  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:08,663] Thread-33  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:09,897] Thread-73  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:09,897] Thread-74  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:13,663] Thread-46  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:13,663] Thread-47  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:14,897] Thread-86  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:14,898] Thread-87  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:18,663] Thread-59  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:18,664] Thread-60  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:23,664] Thread-73  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:23,664] Thread-74  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:28,664] Thread-86  [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:28,665] Thread-87  [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:33,665] Thread-100 [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:33,666] Thread-101 [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:38,665] Thread-113 [ERROR  ] [NetIFace] [enp4s0] netifaces is not installed
+[2021-04-20 23:27:38,666] Thread-114 [ERROR  ] [NetIFace] [elp0s20f3] netifaces is not installed
+[2021-04-20 23:27:42,879] MainThread [ERROR  ] [NetIFace] [elp0s20f3] 'elp0s20f3' not found in ['lo', 'enp4s0', 'wlp0s20f3']
+[2021-04-20 23:27:47,879] Thread-4   [ERROR  ] [NetIFace] [elp0s20f3] 'elp0s20f3' not found in ['lo', 'enp4s0', 'wlp0s20f3']
+[2021-04-20 23:27:48,791] Thread-1   [ERROR  ] Exception in <NetIFace: enp4s0>.on_click:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/pi3bar-0.2.1.dev20200806214124-py3.9.egg/pi3bar/app.py", line 126, in on_plugin_click
+    plugin.on_click(button, x, y)
+  File "/usr/lib/python3.9/site-packages/pi3bar-0.2.1.dev20200806214124-py3.9.egg/pi3bar/plugins/base.py", line 189, in on_click
+    subprocess.Popen(shlex.split(command),
+  File "/usr/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'wicd-client'
+[2021-04-20 23:27:50,408] Thread-1   [ERROR  ] Exception in <NetIFace: elp0s20f3>.on_click:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/pi3bar-0.2.1.dev20200806214124-py3.9.egg/pi3bar/app.py", line 126, in on_plugin_click
+    plugin.on_click(button, x, y)
+  File "/usr/lib/python3.9/site-packages/pi3bar-0.2.1.dev20200806214124-py3.9.egg/pi3bar/plugins/base.py", line 189, in on_click
+    subprocess.Popen(shlex.split(command),
+  File "/usr/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'wicd-client'
+[2021-04-20 23:27:52,880] Thread-20  [ERROR  ] [NetIFace] [elp0s20f3] 'elp0s20f3' not found in ['lo', 'enp4s0', 'wlp0s20f3']
+[2021-04-20 23:27:57,880] Thread-33  [ERROR  ] [NetIFace] [elp0s20f3] 'elp0s20f3' not found in ['lo', 'enp4s0', 'wlp0s20f3']
